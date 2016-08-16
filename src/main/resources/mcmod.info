@@ -1,0 +1,21 @@
+[
+{
+    "modid": "basicWeaponsMod",
+    "name": "Basic Weapons Mod",
+    "description": "The Basic Weapons Mod adds some basic weapons and guns.",
+    "version": "1.0",
+    "mcversion": "1.7.10",
+    "url": "mindhack.space",
+    "updateUrl": "",
+    "authorList": [
+        "mindhack"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent": "",
+    "dependencies": [
+    ]
+}
+]
