@@ -1,16 +1,18 @@
 package space.mindhack.basicWeaponsMod;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import space.mindhack.basicWeaponsMod.configuration.ConfigurationHandler;
+import space.mindhack.basicWeaponsMod.handler.ConfigurationHandler;
+import space.mindhack.basicWeaponsMod.init.ModItems;
 import space.mindhack.basicWeaponsMod.proxy.IProxy;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 import space.mindhack.basicWeaponsMod.utility.LogHelper;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class basicWeaponsMod {
 
     @Mod.Instance(Reference.MOD_ID)
@@ -23,7 +25,8 @@ public class basicWeaponsMod {
     public void preInit(FMLPreInitializationEvent event) {
         /* Load network handling, network configuration, init items/blocks */
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        LogHelper.info("Configuration loaded!");
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
         LogHelper.info("Pre-Initialization complete!");
     }
 
