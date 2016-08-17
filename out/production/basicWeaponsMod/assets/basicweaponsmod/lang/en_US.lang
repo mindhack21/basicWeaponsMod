@@ -1,13 +1,19 @@
-item.basicweaponsmod:m16.name=M16
-item.basicweaponsmod:colt1911.name=Colt 1911
+itemGroup.basicweaponsmod=Basic Weapons Mod
+
+tile.basicweaponsmod:weaponWorkbench=Weapon Workbench
+
 item.basicweaponsmod:44magnum.name=.44 Magnum
+item.basicweaponsmod:colt1911.name=Colt 1911
+item.basicweaponsmod:m16.name=M16
 
 item.basicweaponsmod:pistolBarrel.name=Pistol Barrel
 item.basicweaponsmod:pistolReceiver.name=Pistol Receiver
 item.basicweaponsmod:revolverReceiver.name=Unused
 item.basicweaponsmod:rifleBarrel.name=Rifle Barrel
 item.basicweaponsmod:rifleReceiver.name=Rifle Receiver
-item.basicweaponsmod:rifleScope.name=Rifle Scope
+item.basicweaponsmod:rifleScope20.name=2.0x Rifle Scope
+item.basicweaponsmod:rifleScope34.name=3.4x Rifle Scope
+item.basicweaponsmod:rifleScope40.name=4.0x Rifle Scope
 item.basicweaponsmod:rifleStock.name=Rifle Stock
 
 item.basicweaponsmod:greaseTube.name=Tube of Grease

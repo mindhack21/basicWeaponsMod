@@ -1,10 +1,8 @@
 package space.mindhack.basicWeaponsMod.item;
 
-public class Item44Magnum extends ItemBWM {
+public class Item44Magnum extends ItemGun {
     public Item44Magnum() {
-        super();
-        this.maxStackSize = 1;
+        super("gun.44magnum", 7);
         this.setUnlocalizedName("44magnum");
-        this.bFull3D = true;
     }
 }

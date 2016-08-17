@@ -1,11 +1,30 @@
-[23:18:52] [main/INFO]: Setting user: Player369
-[23:18:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:19:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Basic Weapons Mod
-[23:19:07] [Sound Library Loader/INFO]: Sound engine started
-[23:19:12] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[23:19:12] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[23:19:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Basic Weapons Mod
-[23:19:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:19:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:19:14] [Sound Library Loader/INFO]: Sound engine started
-[23:19:34] [Client thread/INFO]: Stopping!
+[15:06:37] [main/INFO]: Setting user: Player355
+[15:06:39] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:06:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Basic Weapons Mod
+[15:06:52] [Sound Library Loader/INFO]: Sound engine started
+[15:07:01] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:07:01] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:07:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Basic Weapons Mod
+[15:07:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:07:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:07:03] [Sound Library Loader/INFO]: Sound engine started
+[15:07:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:07:08] [Server thread/INFO]: Generating keypair
+[15:07:16] [Server thread/INFO]: Preparing start region for level 0
+[15:07:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:07:18] [Server thread/INFO]: Player355[local:E:2bb6fc8b] logged in with entity id 99 at (-138.79333300826488, 4.0, 790.1085312697103)
+[15:07:18] [Server thread/INFO]: Player355 joined the game
+[15:07:22] [Client thread/INFO]: [CHAT] codechickencore.update
+[15:08:26] [Server thread/INFO]: Player355 has just earned the achievement [Taking Inventory]
+[15:08:26] [Client thread/INFO]: [CHAT] Player355 has just earned the achievement [Taking Inventory]
+[15:09:22] [Server thread/INFO]: Saving and pausing game...
+[15:09:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:09:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:09:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:09:24] [Server thread/INFO]: Stopping server
+[15:09:24] [Server thread/INFO]: Saving players
+[15:09:24] [Server thread/INFO]: Saving worlds
+[15:09:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:09:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:09:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:09:25] [Client thread/INFO]: Stopping!

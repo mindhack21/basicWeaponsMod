@@ -5,21 +5,23 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import space.mindhack.basicWeaponsMod.creativeTab.CreativeTabBasicWeaponsMod;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 
-public class ItemBWM extends Item {
-    public ItemBWM() {
+public class ItemBasicWeaponsMod extends Item {
+    public ItemBasicWeaponsMod() {
         super();
+        this.setCreativeTab(CreativeTabBasicWeaponsMod.BWM_TAB);
     }
 
     @Override
     public String getUnlocalizedName() {
-        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("item.%s%s", Reference.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override
     public String getUnlocalizedName(ItemStack itemStack) {
-        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("item.%s%s", Reference.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override

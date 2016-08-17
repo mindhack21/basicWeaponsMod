@@ -1,42 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61098d88-d6e5-47d1-8870-804845706dc5" name="Default" comment="ConfigurationHandler, Reference, and LogHelper">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/textures/items/44magnum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/textures/items/m16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/textures/items/rifleBarrel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/textures/items/rifleReceiver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/textures/items/rifleStock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/GuiFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/ModGuiConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemColt1911.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/itemBWM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/en_US.lang" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/configuration/ConfigurationHandler.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/configuration/ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/handler/ConfigurationHandler.java" />
+    <list default="true" id="61098d88-d6e5-47d1-8870-804845706dc5" name="Default" comment="ItemGun, EntityBullet, ModBlocks, Creative Tab">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockBasicWeaponsMod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockWeaponWorkbench.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/creativeTab/creativeTabBasicWeaponsMod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/entity/EntityBullet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModBlocks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBasicWeaponsMod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGun.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope20.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope40.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemBWM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleScope.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/itemBWM.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope34.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/basicWeaponsMod.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/basicWeaponsMod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/init/ModItems.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/init/ModItems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/Item44Magnum.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/Item44Magnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemColt1911.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemColt1911.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemM16.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemM16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleStock.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/item/ItemRifleStock.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/reference/Reference.class" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/space/mindhack/basicWeaponsMod/reference/Reference.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basicWeaponsMod.ipr" afterPath="$PROJECT_DIR$/basicWeaponsMod.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-08-16-7.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-08-16-7.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/26d3a8a7-c365-3f1b-98bd-1e86d16aa724.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/26d3a8a7-c365-3f1b-98bd-1e86d16aa724.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basicWeaponsMod.iws" afterPath="$PROJECT_DIR$/basicWeaponsMod.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/mcmod.info" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/mcmod.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/basicWeaponsMod.cfg" afterPath="$PROJECT_DIR$/run/config/basicWeaponsMod.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/forge.cfg" afterPath="$PROJECT_DIR$/run/config/forge.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicWeaponsMod/assets/basicweaponsmod/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/basicWeaponsMod/assets/basicweaponsmod/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/NEI/client.cfg" afterPath="$PROJECT_DIR$/run/config/NEI/client.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/NEI/local/New World/NEI.cfg" afterPath="$PROJECT_DIR$/run/saves/NEI/local/New World/NEI.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/26d3a8a7-c365-3f1b-98bd-1e86d16aa724.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/26d3a8a7-c365-3f1b-98bd-1e86d16aa724.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemColt1911.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemColt1911.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Reference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/en_US.lang" />
     </list>
     <ignored path="basicWeaponsMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,6 +87,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/basicWeaponsMod$Minecraft_Client.coverage" NAME="Minecraft Client Coverage Results" MODIFIED="1471459547269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -96,11 +135,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basicWeaponsMod.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java">
+      <file leaf-file-name="ItemGun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +150,8 @@
       <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,12 +159,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/Item.java">
+      <file leaf-file-name="BlockBasicWeaponsMod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockBasicWeaponsMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModBlocks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,29 +208,45 @@
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/configuration/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/GuiFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/GuiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/ModGuiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/handler/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/itemBWM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBWM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemScope.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemColt1911.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGrease.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockBWM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/es_ES.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/creativeTab/creativeTabBasicWeaponsMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/entity/EntityBullet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/creativeTab/CreativeTabBasicWeaponsMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Textures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBasicWeaponsMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Blocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Items.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockBasicWeaponsMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockWeaponWorkbench.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemColt1911.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.java" />
         <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope20.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope34.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope40.java" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModBlocks.java" />
       </list>
     </option>
   </component>
@@ -276,6 +345,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="space.mindhack.basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reference" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="space.mindhack.basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="space.mindhack.basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="space.mindhack.basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="space.mindhack.basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativeTab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets.basicweaponsmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets.basicweaponsmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicWeaponsMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets.basicweaponsmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -289,7 +498,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
@@ -632,21 +841,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21682848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25485438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -675,7 +885,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basicWeaponsMod" />
     <MESSAGE value="ConfigurationHandler, Reference, and LogHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConfigurationHandler, Reference, and LogHelper" />
+    <MESSAGE value="ItemGun, EntityBullet, ModBlocks, Creative Tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="ItemGun, EntityBullet, ModBlocks, Creative Tab" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -687,16 +898,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -707,14 +908,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBWM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBasicWeaponsMod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,9 +932,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,14 +961,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/asdf.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/client/gui/ModGuiConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -801,43 +992,245 @@
         <state relative-caret-position="306">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/block/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="414">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBWM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/es_ES.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/entity/IProjectile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/ItemPickaxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#948#949#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1908">
+          <caret line="2009" column="16" selection-start-line="2009" selection-start-column="16" selection-end-line="2009" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/entity/player/EntityPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/ItemTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/entity/projectile/EntitySnowball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/ItemSnowball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2978">
+          <caret line="1487" column="23" selection-start-line="1487" selection-start-column="23" selection-end-line="1487" selection-end-column="23" />
+          <folding>
+            <element signature="e#41639#41640#0" expanded="false" />
+            <element signature="e#41701#41702#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Textures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1393" column="16" selection-start-line="1393" selection-start-column="16" selection-end-line="1393" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/entity/projectile/EntityThrowable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+          <folding>
+            <element signature="e#11092#11093#0" expanded="false" />
+            <element signature="e#11120#11121#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Blocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/reference/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockWeaponWorkbench.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/creativeTab/CreativeTabBasicWeaponsMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/entity/EntityBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemBasicWeaponsMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemColt1911.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemM16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -845,55 +1238,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolBarrel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemGreaseTube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -901,41 +1246,97 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemPistolReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/Item44Magnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModItems.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRevolverReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleBarrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope34.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleScope40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/item/ItemRifleStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/block/BlockBasicWeaponsMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/basicweaponsmod/lang/en_US.lang">
+    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/init/ModBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/space/mindhack/basicWeaponsMod/basicWeaponsMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

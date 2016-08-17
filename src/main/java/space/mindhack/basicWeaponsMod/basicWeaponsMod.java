@@ -8,6 +8,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import space.mindhack.basicWeaponsMod.handler.ConfigurationHandler;
 import space.mindhack.basicWeaponsMod.init.ModItems;
+import space.mindhack.basicWeaponsMod.init.ModBlocks;
 import space.mindhack.basicWeaponsMod.proxy.IProxy;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 import space.mindhack.basicWeaponsMod.utility.LogHelper;
@@ -27,6 +28,7 @@ public class basicWeaponsMod {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
+        ModBlocks.init();
         LogHelper.info("Pre-Initialization complete!");
     }
 

@@ -1,10 +1,9 @@
 package space.mindhack.basicWeaponsMod.item;
 
-public class ItemM16 extends ItemBWM {
+public class ItemM16 extends ItemGun {
+
     public ItemM16() {
-        super();
-        this.maxStackSize = 1;
+        super("gun.m16", 30);
         this.setUnlocalizedName("m16");
-        this.bFull3D = true;
     }
 }
