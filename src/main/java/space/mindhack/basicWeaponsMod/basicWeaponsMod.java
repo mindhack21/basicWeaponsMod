@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import space.mindhack.basicWeaponsMod.handler.ConfigurationHandler;
 import space.mindhack.basicWeaponsMod.init.ModItems;
 import space.mindhack.basicWeaponsMod.init.ModBlocks;
+import space.mindhack.basicWeaponsMod.init.Recipes;
 import space.mindhack.basicWeaponsMod.proxy.IProxy;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 import space.mindhack.basicWeaponsMod.utility.LogHelper;
@@ -28,14 +29,17 @@ public class basicWeaponsMod {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
+        LogHelper.info("Items initialized!");
         ModBlocks.init();
+        LogHelper.info("Blocks initialized!");
         LogHelper.info("Pre-Initialization complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         /* Load GUIs, tile entities, crafting recipes */
-
+        Recipes.init();
+        LogHelper.info("Recipes initialized!");
         LogHelper.info("Initialization complete!");
     }
 

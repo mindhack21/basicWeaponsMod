@@ -1,10 +1,23 @@
+# Keys
+keys.basicweaponsmod.category=Basic Weapons Mod
+keys.basicweaponsmod.reload=Reload
+
+# Creative Tab
 itemGroup.basicweaponsmod=Basic Weapons Mod
 
+# Blocks
 tile.basicweaponsmod:weaponWorkbench.name=Weapon Workbench
 
+# Items
+# Guns
 item.basicweaponsmod:44magnum.name=.44 Magnum
 item.basicweaponsmod:colt1911.name=Colt 1911
 item.basicweaponsmod:m16.name=M16
+
+# Crafting materials
+item.basicweaponsmod:lens.name=Lens
+item.basicweaponsmod:ingotGraphite.name=Graphite Bar
+item.basicweaponsmod:graphiteTube.name=Graphite Lubricant
 
 item.basicweaponsmod:pistolBarrel.name=Pistol Barrel
 item.basicweaponsmod:pistolReceiver.name=Pistol Receiver
@@ -15,5 +28,3 @@ item.basicweaponsmod:rifleScope20.name=2.0x Rifle Scope
 item.basicweaponsmod:rifleScope34.name=3.4x Rifle Scope
 item.basicweaponsmod:rifleScope40.name=4.0x Rifle Scope
 item.basicweaponsmod:rifleStock.name=Rifle Stock
-
-item.basicweaponsmod:greaseTube.name=Tube of Grease

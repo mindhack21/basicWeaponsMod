@@ -1,17 +1,22 @@
 package space.mindhack.basicWeaponsMod.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 import space.mindhack.basicWeaponsMod.item.*;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 
-import java.sql.Ref;
-
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems {
+    // Guns
     public static final ItemBasicWeaponsMod magnum44 = new Item44Magnum();
     public static final ItemBasicWeaponsMod colt1911 = new ItemColt1911();
     public static final ItemBasicWeaponsMod m16 = new ItemM16();
-    public static final ItemBasicWeaponsMod greaseTube = new ItemGreaseTube();
+
+    // Crafting components
+    public static final ItemBasicWeaponsMod ingotGraphite = new ItemIngotGraphite();
+    public static final ItemBasicWeaponsMod graphiteTube = new ItemGraphiteTube();
+    public static final ItemBasicWeaponsMod lens = new ItemLens();
+
     public static final ItemBasicWeaponsMod pistolBarrel = new ItemPistolBarrel();
     public static final ItemBasicWeaponsMod pistolReceiver = new ItemPistolReceiver();
     public static final ItemBasicWeaponsMod revolverReceiver = new ItemRevolverReceiver();
@@ -25,8 +30,11 @@ public class ModItems {
     public static void init() {
         GameRegistry.registerItem(magnum44, "44magnum");
         GameRegistry.registerItem(colt1911, "colt1911");
-        GameRegistry.registerItem(greaseTube, "greaseTube");
         GameRegistry.registerItem(m16, "m16");
+        GameRegistry.registerItem(lens, "lens");
+        GameRegistry.registerItem(ingotGraphite, "ingotGraphite");
+        OreDictionary.registerOre("ingotGraphite", ingotGraphite);
+        GameRegistry.registerItem(graphiteTube, "graphiteTube");
         GameRegistry.registerItem(pistolBarrel, "pistolBarrel");
         GameRegistry.registerItem(pistolReceiver, "pistolReceiver");
         GameRegistry.registerItem(revolverReceiver, "revolverReceiver");

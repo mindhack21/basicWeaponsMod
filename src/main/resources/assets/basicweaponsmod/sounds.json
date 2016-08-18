@@ -1,0 +1,11 @@
+{
+    "m4a1": {
+        "category": "master",
+        "sounds": [
+            {
+                "name": "m4a1",
+                "stream": false
+            }
+        ]
+    }
+}

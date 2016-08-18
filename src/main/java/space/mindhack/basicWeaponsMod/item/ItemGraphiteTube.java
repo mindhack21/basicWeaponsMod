@@ -1,9 +1,9 @@
 package space.mindhack.basicWeaponsMod.item;
 
-public class ItemGreaseTube extends ItemBasicWeaponsMod {
-    public ItemGreaseTube() {
+public class ItemGraphiteTube extends ItemBasicWeaponsMod {
+    public ItemGraphiteTube() {
         super();
-        this.setUnlocalizedName("greaseTube");
+        this.setUnlocalizedName("graphiteTube");
         this.maxStackSize = 1;
         // Damage value for how much of the grease is used
         this.setMaxDamage(10);
