@@ -7,6 +7,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import space.mindhack.basicWeaponsMod.handler.ConfigurationHandler;
+import space.mindhack.basicWeaponsMod.handler.KeyInputEventHandler;
 import space.mindhack.basicWeaponsMod.init.ModItems;
 import space.mindhack.basicWeaponsMod.init.ModBlocks;
 import space.mindhack.basicWeaponsMod.init.Recipes;
@@ -28,6 +29,8 @@ public class basicWeaponsMod {
         /* Load network handling, network configuration, init items/blocks */
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        proxy.registerKeybindings();
+        LogHelper.info("Keybindings initialized!");
         ModItems.init();
         LogHelper.info("Items initialized!");
         ModBlocks.init();
@@ -38,6 +41,7 @@ public class basicWeaponsMod {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         /* Load GUIs, tile entities, crafting recipes */
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
         Recipes.init();
         LogHelper.info("Recipes initialized!");
         LogHelper.info("Initialization complete!");

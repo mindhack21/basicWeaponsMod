@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import space.mindhack.basicWeaponsMod.entity.EntityBullet;
 import space.mindhack.basicWeaponsMod.init.ModItems;
+import space.mindhack.basicWeaponsMod.reference.Reference;
 import space.mindhack.basicWeaponsMod.utility.LogHelper;
 
 public class ItemGun extends ItemBasicWeaponsMod {
@@ -28,7 +29,7 @@ public class ItemGun extends ItemBasicWeaponsMod {
                 // Spawn EntityBullet
                 world.spawnEntityInWorld(new EntityBullet(world, entityPlayer));
                 // Play firing sound
-                //world.playSoundAtEntity(entityPlayer, fireSound, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
+                world.playSoundAtEntity(entityPlayer, Reference.RESOURCE_PREFIX + fireSound, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
                  itemStack.damageItem(1, entityPlayer);
             } else {
                 // Play empty clicking sound

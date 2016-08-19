@@ -8,6 +8,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
+import space.mindhack.basicWeaponsMod.reference.Names;
+import space.mindhack.basicWeaponsMod.reference.Reference;
 
 public class BlockWeaponWorkbench extends BlockBasicWeaponsMod {
     @SideOnly(Side.CLIENT)
@@ -16,17 +18,18 @@ public class BlockWeaponWorkbench extends BlockBasicWeaponsMod {
     private IIcon frontTexture;
 
     public BlockWeaponWorkbench() {
-        super(Material.wood);
-        this.setBlockName("weaponWorkbench");
-        this.setBlockTextureName("weaponWorkbench");
-        //this.setStepSound();
+        super(Material.iron);
+        this.setBlockName(Names.Blocks.WEAPON_WORKBENCH);
+        this.setBlockTextureName(Reference.RESOURCE_PREFIX + Names.Blocks.WEAPON_WORKBENCH + "Side");
+        this.setHardness(3.0F);
+        //this.setStepSound(soundTypePiston);
     }
 
     /**
      * Gets the block's texture. Args: side, meta
      */
     @SideOnly(Side.CLIENT)
-    public IIcon getIcon(int side, int p_149691_2_)
+    public IIcon getIcon(int side, int meta)
     {
         return side == 1 ? this.topTexture : (side == 0 ? Blocks.planks.getBlockTextureFromSide(side) : (side != 2 && side != 4 ? this.blockIcon : this.frontTexture));
     }
@@ -42,16 +45,16 @@ public class BlockWeaponWorkbench extends BlockBasicWeaponsMod {
     /**
      * Called upon block activation (right click on the block.)
      */
-    /*public boolean onBlockActivated(World p_149727_1_, int p_149727_2_, int p_149727_3_, int p_149727_4_, EntityPlayer p_149727_5_, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_)
+    public boolean onBlockActivated(World world, int p_149727_2_, int p_149727_3_, int p_149727_4_, EntityPlayer entityPlayer, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_)
     {
-        if (p_149727_1_.isRemote)
+        if (world.isRemote)
         {
             return true;
         }
         else
         {
-            p_149727_5_.displayGUIWorkbench(p_149727_2_, p_149727_3_, p_149727_4_);
+            //entityPlayer.displayGUIWorkbench(p_149727_2_, p_149727_3_, p_149727_4_);
             return true;
         }
-    }*/
+    }
 }

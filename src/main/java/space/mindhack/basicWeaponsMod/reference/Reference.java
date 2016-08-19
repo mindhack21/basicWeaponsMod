@@ -8,5 +8,5 @@ public class Reference {
     public static final String SERVER_PROXY_CLASS = "space.mindhack.basicWeaponsMod.proxy.ServerProxy";
     public static final String GUI_FACTORY_CLASS = "space.mindhack.basicWeaponsMod.client.gui.GuiFactory";
 
-    public static final String RESOURCE_PREFIX = Reference.MOD_ID.toLowerCase() + ":";
+    public static final String RESOURCE_PREFIX = MOD_ID.toLowerCase() + ":";
 }

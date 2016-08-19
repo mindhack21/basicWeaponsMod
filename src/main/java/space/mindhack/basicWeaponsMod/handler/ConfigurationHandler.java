@@ -10,7 +10,7 @@ import java.io.File;
 
 public class ConfigurationHandler {
     public static Configuration configuration;
-    public static String reloadKey;
+    //public static String reloadKey;
 
     public static void init(File configFile) {
         // Create configuration object from given config file
@@ -29,7 +29,7 @@ public class ConfigurationHandler {
     }
 
     private static void loadConfiguration() {
-        reloadKey = configuration.getString("reloadKey", "controls", "r", "Reload gun");
+        //reloadKey = configuration.getString("reloadKey", "controls", "r", "Reload gun");
 
         LogHelper.info("Configuration loaded!");
 

@@ -9,7 +9,7 @@ public class CreativeTabBasicWeaponsMod {
     public static final CreativeTabs BWM_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
         @Override
         public Item getTabIconItem() {
-            return ModItems.m16;
+            return ModItems.gunM4A1;
         }
     };
 }
