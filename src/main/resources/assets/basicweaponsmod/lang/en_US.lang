@@ -6,14 +6,17 @@ keys.basicweaponsmod.reload=Reload
 itemGroup.basicweaponsmod=Basic Weapons Mod
 
 # Blocks
-tile.basicweaponsmod:weaponWorkbench.name=Weapon Workbench
+tile.basicweaponsmod:weaponWorkbench.name=Weapon Workbench [WIP]
 tile.basicweaponsmod:blockGraphite.name=Block of Graphite
 
 # Items
 # Guns
-item.basicweaponsmod:gun44Magnum.name=.44 Magnum
 item.basicweaponsmod:gunColt1911.name=Colt 1911
 item.basicweaponsmod:gunM4A1.name=M4A1
+
+# Ammunition
+item.basicweaponsmod:magazineSTANAG.name=STANAG Magazine
+item.basicweaponsmod:magazine45ACP.name=.45 ACP Magazine
 
 # Crafting materials
 item.basicweaponsmod:lens.name=Lens
@@ -24,9 +27,8 @@ item.basicweaponsmod:tubeGraphite.name=Graphite Lubricant
 item.basicweaponsmod:barrelPistol.name=Pistol Barrel
 item.basicweaponsmod:barrelRifle.name=Rifle Barrel
 item.basicweaponsmod:receiverPistol.name=Pistol Receiver
-item.basicweaponsmod:receiverRevolver.name=Unused
 item.basicweaponsmod:receiverRifle.name=Rifle Receiver
-item.basicweaponsmod:scope20.name=2.0x Rifle Scope
-item.basicweaponsmod:scope40.name=4.0x Rifle Scope
-item.basicweaponsmod:scope120.name=12.0x Rifle Scope
+item.basicweaponsmod:scope2.name=2x Rifle Scope
+item.basicweaponsmod:scope4.name=4x Rifle Scope
+item.basicweaponsmod:scope12.name=12x Rifle Scope
 item.basicweaponsmod:stockRifle.name=Rifle Stock

@@ -13,29 +13,42 @@ public class ItemGun extends ItemBasicWeaponsMod {
     private int ammoCount;
     private String fireSound;
 
-    public ItemGun(Item item, String soundPath, int ammo) {
+    public ItemGun(String soundPath, int ammo) {
         super();
         this.maxStackSize = 1;
         this.bFull3D = true;
-        this.fireSound = "sounds." + soundPath;
+        this.fireSound = soundPath;
         this.ammoCount = ammo;
         this.setMaxDamage(this.ammoCount);
         this.setNoRepair();
     }
 
+    @Override
     public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer entityPlayer) {
         if (!world.isRemote) {
             if (this.getDamage(itemStack) < this.ammoCount-1) {
                 // Spawn EntityBullet
                 world.spawnEntityInWorld(new EntityBullet(world, entityPlayer));
                 // Play firing sound
+                // FIXME Gun sounds
                 world.playSoundAtEntity(entityPlayer, Reference.RESOURCE_PREFIX + fireSound, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
-                 itemStack.damageItem(1, entityPlayer);
+                // FIXME Gun ammunition metadata
+                int dmg = itemStack.getItemDamage();
+                itemStack.setItemDamage(dmg + 1);
             } else {
                 // Play empty clicking sound
             }
         }
 
         return itemStack;
+    }
+
+    /*
+    *   Called when reload gun keybind is pressed Args: ItemStack, World, EntityPlayer
+     */
+    public void onReloadKeybinding(ItemStack itemStack, World world, EntityPlayer entityPlayer) {
+        if (itemStack.getItemDamage() == ammoCount) {
+            //entityPlayer.inventory.consumeInventoryItem(ModItems.magazineSTANAG);
+        }
     }
 }

@@ -20,7 +20,7 @@ public class BlockBasicWeaponsMod extends Block {
     }
 
     @SideOnly(Side.CLIENT)
-    public void registerIcons(IIconRegister iconRegister) {
+    public void registerBlockIcons(IIconRegister iconRegister) {
         blockIcon = iconRegister.registerIcon(getUnwrappedUnlocalizedName(this.getUnlocalizedName()));
     }
 

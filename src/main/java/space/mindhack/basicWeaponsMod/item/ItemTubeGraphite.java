@@ -6,7 +6,7 @@ import space.mindhack.basicWeaponsMod.reference.Names;
 
 public class ItemTubeGraphite extends ItemBasicWeaponsMod {
     private ItemStack emptyItem;
-    private static int maxDamage = 10;
+    private static int maxDamage = 5;
 
     public ItemTubeGraphite() {
         super();
@@ -34,11 +34,12 @@ public class ItemTubeGraphite extends ItemBasicWeaponsMod {
     public ItemStack getContainerItem(ItemStack itemStack) {
         int dmg = itemStack.getItemDamage();
         if (dmg == this.maxDamage) {
-            return new ItemStack(itemStack.getItem(), 0, maxDamage);
+            return new ItemStack(ModItems.tubeGraphite, 0, this.maxDamage);
+        } else {
+            ItemStack tr = copyStack(itemStack, 1);
+            tr.setItemDamage(dmg + 1);
+            return tr;
         }
-        ItemStack tr = copyStack(itemStack, 1);
-        tr.setItemDamage(dmg + 1);
-        return tr;
     }
 
     public static ItemStack copyStack(ItemStack itemStack, int n) {

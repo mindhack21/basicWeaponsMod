@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="BasicWeaponsMod-1.7.10-1.0">
+      <output-path>$PROJECT_DIR$/out/artifacts/BasicWeaponsMod_1_7_10_1_0</output-path>
+      <root id="archive" name="BasicWeaponsMod-1.7.10-1.0.jar">
+        <element id="module-output" name="basicWeaponsMod" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+        </element>
+      </root>
+    </artifact>
+  </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <resourceExtensions>

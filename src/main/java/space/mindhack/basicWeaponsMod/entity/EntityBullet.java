@@ -7,6 +7,9 @@ import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 
 public class EntityBullet extends EntityThrowable {
+    // TODO Increase bullet velocity
+    // FIXME Entity textures
+
     public EntityBullet(World world) {
         super(world);
     }

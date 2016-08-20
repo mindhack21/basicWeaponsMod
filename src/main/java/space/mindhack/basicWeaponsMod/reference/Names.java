@@ -11,12 +11,13 @@ public final class Names {
         public static final String INGOT_GRAPHITE = "ingotGraphite";
         public static final String TUBE_GRAPHITE = "tubeGraphite";
         public static final String LENS = "lens";
+        public static final String MAGAZINE_STANAG = "magazineSTANAG";
+        public static final String MAGAZINE_45_ACP = "magazine45ACP";
         public static final String RECEIVER_PISTOL = "receiverPistol";
-        public static final String RECEIVER_REVOLVER = "receiverRevolver";
         public static final String RECEIVER_RIFLE = "receiverRifle";
-        public static final String SCOPE_20 = "scope20";
-        public static final String SCOPE_40 = "scope40";
-        public static final String SCOPE_120 = "scope120";
+        public static final String SCOPE_2 = "scope2";
+        public static final String SCOPE_4 = "scope4";
+        public static final String SCOPE_12 = "scope12";
         public static final String STOCK_RIFLE = "stockRifle";
     }
 
@@ -39,5 +40,6 @@ public final class Names {
         public static final String UUID_LEAST_SIG = "UUIDLeastSig";
         public static final String DISPLAY = "display";
         public static final String COLOR = "color";
+        public static final String GUN_SCOPE = "gunScope";
     }
 }
