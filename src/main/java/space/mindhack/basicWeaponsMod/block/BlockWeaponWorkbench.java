@@ -1,5 +1,6 @@
 package space.mindhack.basicWeaponsMod.block;
 
+import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
@@ -47,6 +48,7 @@ public class BlockWeaponWorkbench extends BlockBasicWeaponsMod {
     /**
      * Called upon block activation (right click on the block.)
      */
+
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer entityPlayer, int metadata, float param7, float param8, float param9) // TODO Add GUI for Weapon Workbench
     {
         if (world.isRemote)

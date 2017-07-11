@@ -31,7 +31,7 @@ public class ItemGun extends ItemBasicWeaponsMod {
                 world.spawnEntityInWorld(new EntityBullet(world, entityPlayer));
                 // Play firing sound
                 // FIXME Gun sounds
-                world.playSoundAtEntity(entityPlayer, Reference.RESOURCE_PREFIX + fireSound, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
+                //world.playSoundAtEntity(entityPlayer, Reference.RESOURCE_PREFIX + this.fireSound, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
                 // FIXME Gun ammunition metadata
                 int dmg = itemStack.getItemDamage();
                 itemStack.setItemDamage(dmg + 1);
@@ -45,10 +45,12 @@ public class ItemGun extends ItemBasicWeaponsMod {
 
     /*
     *   Called when reload gun keybind is pressed Args: ItemStack, World, EntityPlayer
-     */
+    */
     public void onReloadKeybinding(ItemStack itemStack, World world, EntityPlayer entityPlayer) {
         if (itemStack.getItemDamage() == ammoCount) {
-            //entityPlayer.inventory.consumeInventoryItem(ModItems.magazineSTANAG);
+            entityPlayer.inventory.consumeInventoryItem(ModItems.magazineSTANAG);
+            // Get list of magazineSTANAG items in player's inventory
+            // Damage item until "magazine" is "empty" then move to next item
         }
     }
 }

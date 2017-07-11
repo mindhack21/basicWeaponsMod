@@ -21,13 +21,13 @@ public class EntityBullet extends EntityThrowable {
 
     @Override
     protected float getGravityVelocity() {
-        return 0F;
+        return 0.01F;
     }
 
     @Override
     protected void onImpact(MovingObjectPosition movingObjectPosition) {
         if (movingObjectPosition.entityHit != null) {
-            movingObjectPosition.entityHit.attackEntityFrom(DamageSource.causeThrownDamage(this, this.getThrower()), 4);
+            movingObjectPosition.entityHit.attackEntityFrom(DamageSource.causeThrownDamage(this, this.getThrower()), 10);
         }
 
         if (!this.worldObj.isRemote)

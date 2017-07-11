@@ -1,11 +1,6 @@
 {
-    "m4a1": {
+    "m4a1_fire": {
         "category": "master",
-        "sounds": [
-            {
-                "name": "m4a1",
-                "stream": false
-            }
-        ]
+        "sounds": [ "basicweaponsmod:m4a1_fire" ]
     }
 }

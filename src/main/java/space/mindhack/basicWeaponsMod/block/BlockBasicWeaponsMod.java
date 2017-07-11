@@ -5,10 +5,11 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import space.mindhack.basicWeaponsMod.creativeTab.CreativeTabBasicWeaponsMod;
+import space.mindhack.basicWeaponsMod.creativetab.CreativeTabBasicWeaponsMod;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 
 public class BlockBasicWeaponsMod extends Block {
+
     public BlockBasicWeaponsMod(Material material) {
         super(material);
         this.setCreativeTab(CreativeTabBasicWeaponsMod.BWM_TAB);

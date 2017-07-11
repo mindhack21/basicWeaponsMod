@@ -15,13 +15,17 @@ import space.mindhack.basicWeaponsMod.proxy.IProxy;
 import space.mindhack.basicWeaponsMod.reference.Reference;
 import space.mindhack.basicWeaponsMod.utility.LogHelper;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+@Mod(modid = Reference.MOD_ID,
+        name = Reference.MOD_NAME,
+        version = Reference.VERSION,
+        guiFactory = Reference.GUI_FACTORY_CLASS)
 public class basicWeaponsMod {
 
     @Mod.Instance(Reference.MOD_ID)
     public static basicWeaponsMod instance;
 
-    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS,
+            serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler

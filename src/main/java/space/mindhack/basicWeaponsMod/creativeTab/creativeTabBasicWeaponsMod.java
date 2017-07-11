@@ -1,4 +1,4 @@
-package space.mindhack.basicWeaponsMod.creativeTab;
+package space.mindhack.basicWeaponsMod.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

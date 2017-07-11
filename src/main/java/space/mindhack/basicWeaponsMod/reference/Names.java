@@ -35,7 +35,7 @@ public final class Names {
     {
         public static final String ITEMS = "Items";
         public static final String CRAFTING_GUI_OPEN = "craftingGuiOpen";
-        public static final String WEAPON_WORKBENCH_GUI_OPEN = "transmutationGuiOpen";
+        public static final String WEAPON_WORKBENCH_GUI_OPEN = "weaponWorkbenchGuiOpen";
         public static final String UUID_MOST_SIG = "UUIDMostSig";
         public static final String UUID_LEAST_SIG = "UUIDLeastSig";
         public static final String DISPLAY = "display";
